@@ -2,7 +2,8 @@
 	num RESB 3
 
 	section .data
-	num2 DB 3 DUP(2)
+	num2 TIMES 3 DB 2
+	
 
 	section .text
 
